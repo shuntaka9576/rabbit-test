@@ -1,0 +1,5 @@
+reviews:
+  path_instructions:
+    - path: "iac/*.ts"
+      instructions: |
+        日本語で指摘してください
