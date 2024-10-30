@@ -1,0 +1,4 @@
+node_modules
+web-app/target
+iac/cdk.out
+tsconfig.tsbuildinfo

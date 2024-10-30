@@ -1,0 +1,22 @@
+{
+  "name": "axum-on-lambda",
+  "version": "0.0.0",
+  "scripts": {
+    "check": "npm run check --workspaces --if-present",
+    "fix": "npm run fix --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "spell": "cspell '**/*.{ts,json}' --cache --gitignore"
+  },
+  "keywords": [],
+  "workspaces": [
+    "iac"
+  ],
+  "devDependencies": {
+    "npm-run-all": "4.1.5",
+    "@biomejs/biome": "1.9.4",
+    "aws-cdk": "2.162.1",
+    "cspell": "8.15.3",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3"
+  }
+}
